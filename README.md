@@ -7,6 +7,8 @@
 # Description
 Display your code in budibase no matter what language your code is written in.
 
+Use the built-in handlebars editor for multi-line support.
+
 Find out more about [Budibase](https://github.com/Budibase/budibase).
 
 ## Instructions
