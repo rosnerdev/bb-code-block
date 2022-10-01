@@ -13,9 +13,11 @@
         "label": "Code"
       },
       {
-        "type": "text",
+        "type": "select",
         "key": "theme",
-        "label": "Theme(dark/light)"
+        "label": "Theme",
+        "options": ["Dark", "Light"],
+        "defaultValue": "Dark"
       }
     ]
   }

@@ -5,14 +5,14 @@
   import atomLight from "svelte-highlight/styles/atom-one-light";
 
   export let code
-  export let theme = "dark"
+  export let theme
 
   const { styleable } = getContext("sdk")
   const component = getContext("component")
 </script>
 
 <svelte:head>
-{#if theme.toLowerCase() == "light"}  
+{#if theme == "Light"}  
   {@html atomLight}
 {:else}
   {@html atom}
