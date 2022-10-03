@@ -10,7 +10,8 @@
       {
         "type": "text",
         "key": "code",
-        "label": "Code"
+        "label": "Code",
+        "defaultValue": "console.log('Hello from budibase!')"
       },
       {
         "type": "select",
